@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #333; }
+
+ul {
+  margin-bottom: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+header, .call-to-action {
+  background-color: #f59a00;
+  color: #fff;
+  text-align: center;
+  padding-top: 64px; }
+
+header h1, p, a {
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #f59a00;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px; }
+  a:hover {
+    opacity: .7; }
+
+header img {
+  width: 280px;
+  vertical-align: bottom; }
+
+.features > h1 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding: 64px 0; }
+
+.features .container {
+  margin: 0 64px; }
+  .features .container section {
+    padding-bottom: 64px;
+    text-align: center; }
+  .features .container h1 {
+    font-size: 30px; }
+  .features .container p {
+    font-size: 20px;
+    line-height: 1.8; }
+
+.features img {
+  width: 100%; }
+
+.members {
+  background-color: #f2f2f3;
+  text-align: center;
+  vertical-align: bottom; }
+  .members > h1 {
+    text-align: center;
+    padding: 64px 0;
+    font-weight: normal;
+    font-size: 30px; }
+  .members li {
+    padding-bottom: 64px; }
+    .members li img {
+      width: 160px;
+      border-radius: 50%; }
+    .members li p {
+      font-size: 20px;
+      padding: 0 20px; }
+
+.call-to-action {
+  height: 300px; }
+  .call-to-action h1 {
+    font-size: 30px; }
+
+footer {
+  padding: 64px 0;
+  text-align: center;
+  background-color: #323135;
+  color: #98969c; }
+
+@media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-around; }
+    header .container .info {
+      align-self: center; }
+  .features .container {
+    width: 800px;
+    margin: 0 auto; }
+    .features .container section {
+      display: flex;
+      justify-content: space-around; }
+      .features .container section .info h1 {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .features .container section .info p {
+        padding-right: 20px; }
+    .features .container .section-2 {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row-reverse; }
+  .members ul {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around; } }
